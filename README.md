@@ -1,4 +1,37 @@
-# Celestial Bodies Database
+Build a Celestial Bodies Database
+=================================
+
+This is one of the required projects to earn your certification. For this project, you will build a database of celestial bodies using PostgreSQL.
+
+This course runs in a virtual Linux machine using Gitpod. Follow these instructions to start the course:
+
+1.  [Create a GitHub](https://github.com/join "Source Code Link") account if you don't have one
+2.  Click the start button below
+3.  Login to Gitpod with your GitHub account if you aren't already
+4.  Once the virtual Linux machine is finished loading, start the CodeRoad extension by:
+    *   Clicking the "hamburger" menu near the top left of the VSCode window,
+    *   Going to the "View" menu,
+    *   Clicking on the "Command Palette" option,
+    *   and running the "CodeRoad: Start" command
+5.  Follow the instructions in CodeRoad to complete the course
+
+Complete both steps below to finish the challenge.
+
+* * *
+
+Step 1: Complete the project
+----------------------------
+
+The project runs in a virtual machine, complete the user stories described in there and get all the tests to pass to finish step 1.
+
+**Important:** After you pass all the project tests, save a dump of your database into a `universe.sql` file so you can complete step 2. There will be instructions how to do that within the virtual machine.
+
+> Clicking the button below will start a new project. If you have previously started the Build a Celestial Bodies Database course, go to [your Gitpod dashboard](https://gitpod.io/workspaces) to continue.
+> 
+> Learn more about [Gitpod workspaces.](https://forum.freecodecamp.org/t/using-gitpod-in-the-curriculum/668669)
+
+> If you log out of freeCodeCamp before you complete the entire Build a Celestial Bodies Database course, your progress will not be saved to your freeCodeCamp account.
+
 #### Open [file `solution.txt`](solution.txt) To follow my terminal command. Solutions divided into several steps :
     1. Create database and connect to it.
     2. Create tables as required conditions.
@@ -6,16 +39,10 @@
     4. Primary Key and Foreign Key assignment.
     5. Compact queries into universe.sql file.
 
-#### Documentation can be found on :[https://github.com/viktoriussuwandi/Celestial-Bodies-Database](https://github.com/viktoriussuwandi/Celestial-Bodies-Database) 
-
-This is the result to complete the Celestial Bodies Database project. 
-Instructions for building this project can be found at 
-[https://www.freecodecamp.org/learn/relational-database/build-a-celestial-bodies-database-project/build-a-celestial-bodies-database](https://www.freecodecamp.org/learn/relational-database/build-a-celestial-bodies-database-project/build-a-celestial-bodies-database)
-
 ## Instructions
 For this project, you need to log in to PostgreSQL with psql to create your database. Do that by entering `psql --username=freecodecamp --dbname=postgres` in the terminal. Make all the tests below pass to complete the project. Be sure to get creative, and have fun!
 
-**Don't forget to connect to your database after you create it** 😄
+**Don't forget to connect to your database after you create it**
 
 Here's some ideas for other column and table names: `description`, `has_life`, `is_spherical`, `age_in_millions_of_years`, `planet_types`, `galaxy_types`, `distance_from_earth`.
 
@@ -49,3 +76,12 @@ If you are saving your progress on [freeCodeCamp.org](https://www.freecodecamp.o
 22. All columns named name should be of type `VARCHAR`.
 23. Each `primary key` column should follow the naming convention `table_name_id`. For example : the `moon` table should have a `primary key` column named `moon_id`.
 24. Each `foreign key` column should have the same name as the `column` it is referencing.
+
+* * *
+
+Step 2: Submit your code
+------------------------
+
+When you have completed the project, save all the required files into a public repository and submit the URL to it below.
+
+Required files: `universe.sql`
